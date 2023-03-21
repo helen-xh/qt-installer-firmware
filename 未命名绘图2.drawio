@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T02:50:10.728Z" agent="5.0 (Windows)" etag="ZboHz_XpexCCTmb1b74x" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-21T03:05:40.932Z" agent="5.0 (Windows)" etag="4JrHrAIYwntKakRYvwQ6" version="20.5.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="640" dy="303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dpMPxvlxTykies-16Fs4-56" value="中间件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="128" y="525" width="580" height="155" as="geometry" />
+        </mxCell>
         <mxCell id="dpMPxvlxTykies-16Fs4-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="153" y="37" width="520" height="290" as="geometry" />
+          <mxGeometry x="153" y="50" width="520" height="277" as="geometry" />
         </mxCell>
         <mxCell id="dpMPxvlxTykies-16Fs4-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="190" width="200" height="100" as="geometry" />
@@ -84,6 +87,78 @@
         </mxCell>
         <mxCell id="dpMPxvlxTykies-16Fs4-34" value="管理集群" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="355" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="520" as="sourcePoint" />
+            <mxPoint x="740" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="158" y="560" width="160" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="560" width="160" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-39" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="563.5" width="60" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-40" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="600.5" width="60" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-41" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="600.5" width="60" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-43" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="563.5" width="60" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-44" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="600.5" width="60" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-45" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="600.5" width="60" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-46" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="550" as="sourcePoint" />
+            <mxPoint x="320" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-47" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="579" y="550" as="sourcePoint" />
+            <mxPoint x="519" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="519" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-48" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="550" as="sourcePoint" />
+            <mxPoint x="260" y="342" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-49" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=block;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="550" as="sourcePoint" />
+            <mxPoint x="590" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-50" value="push" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="425" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-51" value="pull" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="425" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-53" value="&lt;div&gt;获取topic等&lt;/div&gt;&lt;div&gt;配置配置&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="521" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-54" value="&lt;div&gt;获取topic等&lt;/div&gt;&lt;div&gt;配置配置&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="521" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dpMPxvlxTykies-16Fs4-55" value="权限验证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="675" y="495" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
